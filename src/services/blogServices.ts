@@ -5,7 +5,7 @@ const API_URL = import.meta.env.VITE_API_URL;
 
 // Bearer token for authorization
 const AUTH_TOKEN = import.meta.env.VITE_AUTH_TOKEN;
-
+console.log(API_URL+" api url \n"+AUTH_TOKEN+" AuthToken")
 // Create an Axios instance with default headers
 const axiosInstance = axios.create({
   baseURL: API_URL,
