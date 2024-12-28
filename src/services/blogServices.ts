@@ -4,7 +4,7 @@ import axios from "axios";
 const API_URL = import.meta.env.VITE_API_URL;
 
 // Bearer token for authorization
-const AUTH_TOKEN = import.meta.env.AUTH_TOKEN;
+const AUTH_TOKEN = import.meta.env.VITE_AUTH_TOKEN;
 
 // Create an Axios instance with default headers
 const axiosInstance = axios.create({
